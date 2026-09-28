@@ -16,3 +16,7 @@ Use [`../runbooks/`](../runbooks/) for executable operating procedures. Use
 evidence. Until a dedicated engineering page exists, the current code-level entrypoint map remains
 in [`AGENTS.md`](../../AGENTS.md#pointers).
 
+
+## Repository navigation
+
+- [Detailed repository map and Oracle training flow](repository-map.md), moved from the root README on 2026-09-28.

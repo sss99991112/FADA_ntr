@@ -9,6 +9,17 @@ This registry owns research authority and dated evidence. Stable engineering exp
 repeatable operator procedures live under [`docs/`](../docs/); they must link back here rather than
 copying active Contract semantics.
 
+## 按用途阅读
+
+- 当前方向讨论：[方向 A](fada/concepts/2026-09-28-direction-a-discussion.md)。
+- 相关工作：[真实机器人适配笔记](fada/related_work_real_robot_adaptation.md)。
+- 具体方法约定：[Contract 索引](fada/contracts/README.md)。
+- 查旧实验：`fada/evidence/`；查保留的最新审查：`fada/reviews/`；查保留的方案：`fada/plans/`。
+- 图与演示：`architecture/` 和 `presentations/`。
+
+2026-09-28：被替代的讨论、旧方案和审查文件已清理；原始运行证据保留。
+旧阶段游标已依据 v024 实现证据修正。方向 A 仍为待验证研究问题。
+
 ## Current authority state
 
 | Layer | Current artifact | Status |

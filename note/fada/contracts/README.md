@@ -34,11 +34,13 @@ Official-route formal audit, simulator/training execution, and policy-quality ev
 separate and have not run.
 
 The superseded analytic-axis v008/v007 pair, fixed-three-axis v007/v006 pair, query-conditioned
-v006/v005 pair, and receipts bound to them remain history. They cannot establish correctness for the
+v006/v005 pair, are superseded; their original runtime receipts remain historical evidence. They cannot establish correctness for the
 active data-driven Contracts.
 
-Superseded method/training contracts, including v023, FADA-ADAPT v002, v017, v016, v015,
-v013, v012, and v011, are retained under `history/` and excluded from default recall.
+Superseded discussion documents and Contracts were removed on 2026-09-28 at the user's request.
+The v010 pair remains under `history/` only because active Context v009 still names v010 as a
+prerequisite. This historical dependency needs a separate semantic decision; it does not revive
+v010 as an executable method. Original runtime evidence remains available.
 
 The 15-degree slope demonstration is an implementation of the active
 FADA-ADAPT v003 contract. Its target artifact is target-only schema v3; legacy

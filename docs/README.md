@@ -19,10 +19,7 @@ It does not define research semantics and does not authorize training or deploym
 - [Server training resource control](runbooks/server-training.md)
 - [Engineering document scope](engineering/README.md)
 
-## Process material
+## 保留的过程证据
 
-`superpowers/` contains dated implementation plans and design working records produced by the
-Superpowers workflow. It is not the current research authority or the canonical operator manual.
-When one of those records conflicts with `AGENTS.md`, an active Contract, or a current runbook,
-the current authority wins.
-
+`superpowers/execution/` 保留旧工程执行记录。已完成或被替代的方案、设计讨论和审查
+文件已于 2026-09-28 清理；操作流程查看当前 Runbook，研究边界查看有效约定。

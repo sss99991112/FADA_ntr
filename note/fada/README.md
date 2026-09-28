@@ -33,6 +33,9 @@ historical and do not establish v009 correctness.
 
 ## Recall order
 
+Research discussion snapshot: [2026-09-28 direction A feasibility and novelty](concepts/2026-09-28-direction-a-discussion.md).
+This concept note records conditional hypotheses and proposed diagnostics; it does not change active Contracts or establish experimental results.
+
 1. `../README.md` and `../governance/README.md`
 2. `../architecture/08_in_context_execution_calibration.html`
 3. `../architecture/09_in_context_execution_calibration_design_inspector.html`

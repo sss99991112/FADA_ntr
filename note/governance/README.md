@@ -1,29 +1,19 @@
-# ICE-Cal governance index
+# 研究与实现状态入口
 
-This is the project-level governance entrypoint. It separates semantic objects that share the FADA
-runtime but have different Contracts and evidence. A status in one row never authorizes another row.
+2026-09-28：清理被替代的讨论文件，并依据已有实现证据修正旧阶段游标。
 
-| Track | Semantic owner | Governance cursor | Implementation/runtime boundary |
-|---|---|---|---|
-| Source Oracle | `FADA-METHOD-v024` + `FADA-TRAIN-v024` | design confirmed; engineering blocked | no v024 selector, code, formal route, checkpoint, training or quality evidence |
-| Target adaptation | `FADA-ADAPT-METHOD-v003` + `FADA-ADAPT-TRAIN-v003` | active Contract | evidence is valid only for its recorded source/target/checkpoint identity |
-| In-context calibration | `FADA-CONTEXT-METHOD-v009` + `FADA-CONTEXT-TRAIN-v008` | design confirmed; engineering proposal | v008/v007 implementation receipts are historical after semantic supersession |
-| Repository simplification | `2026-09-07-repository-simplification.md` | offline execution complete, uncommitted | maintainability/config evidence only; no runtime or policy claim |
+| 轨道 | 记录入口 | 当前记录的状态 |
+|---|---|---|
+| 新研究方向 A | [讨论记录](../fada/concepts/2026-09-28-direction-a-discussion.md) | 有条件可行；创新性与实验现象待验证 |
+| Source Oracle v024 | [实现证据](../fada/evidence/2026-09-07-v024-command-gated-phase-contact-implementation.md) | 已实现、离线验证、有界运行 smoke；完整正式验证与训练待完成 |
+| FADA 目标适配 | [约定索引](../fada/contracts/README.md) | ADAPT v003；效果以具体实验身份为准 |
+| Context 校准 | [约定索引](../fada/contracts/README.md) | v009/v008 工程提案，尚不能引用旧版本证据证明其正确性 |
 
-## Current receipts
+## 保留的当前资料
 
-- Source v024: `../fada/governance/2026-09-07-v024-command-gated-phase-contact-design-confirmed.json`
-- Context v009: `../governance.json` is the preserved workflow-governance/v1 activation receipt.
-  It is Context-specific and cannot serve as project-wide status or v2 engineering admission.
-- Repository simplification: `../fada/governance/2026-09-07-repository-simplification-execution.json`.
+- [v024 设计确认](../fada/governance/2026-09-07-v024-command-gated-phase-contact-design-confirmed.json)
+- [v024 实现记录](../fada/governance/2026-09-07-v024-command-gated-phase-contact-execution.json)
+- [Context 设计确认](../governance.json)
+- [当前检查表](../fada/checklists/current.md)
 
-## Authority order
-
-1. Current explicit human instruction and the active Contract for the affected track.
-2. Current Design Inspector projection and governance receipt.
-3. Current engineering plan and producer-owned technical receipts.
-4. Current implementation/configuration evidence.
-5. Historical Contracts, plans, logs and memory.
-
-The active Contract registry is `../fada/contracts/README.md`. Historical files remain evidence but
-are excluded from default recall and cannot authorize implementation, training or deployment.
+当前用户指令及有效约定优先。旧运行证据保留其原始身份与日期，不代表新方向已验证。

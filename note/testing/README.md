@@ -1,25 +1,18 @@
-# ICE-Cal test-design registry
+# 测试资料入口
 
-There is currently no Module Test receipt for the active Source v024 or Context v009 Contracts.
-Design activation and documentation checks do not establish module correctness.
+## 当前资料
 
-## Historical Context evidence
+Source v024 的当前测试卡及结果：
 
-The files in this directory bind earlier Context implementations:
+- [模块测试卡](../fada/testing/v024_module_test_cards.md)
+- [Reward 排序卡](../fada/testing/v024_reward_ordering_card.json)
+- [模块结果](../fada/evidence/2026-09-07-v024-command-gated-phase-contact-module-test.json)
+- [实现验证记录](../fada/evidence/2026-09-07-v024-command-gated-phase-contact-implementation.md)
 
-- `module_test_cards.md`, `module_test_manifest.json`,
-  `calibratable_tracker_module_test_evidence.json`, and
-  `calibratable_tracker_module_test_control_board.json` cover
-  `FADA-CONTEXT-METHOD-v008 + FADA-CONTEXT-TRAIN-v007`.
-- `module_test_control_board.json`, `module_test_evidence.json`, and the formal-audit JSON files
-  cover the still older v006/v005 route.
+v024 已有离线模块验证与有界 reset/step smoke；完整正式验证和策略质量仍待验证。
+Context v009/v008 没有由早期版本测试证明其模块正确性。
 
-Those receipts remain immutable historical evidence. Their internal `MODULE-CORRECT` or formal
-statuses do not transfer to the active data-driven Context v009 design or to the v024 Oracle.
+## 旧运行证据
 
-## Next test-design owner
-
-The next v024 engineering unit must create new Module Test Cards covering command dead-zone order,
-exact null-command identity, phase freeze/advance, contact truth tables, bounded Reward, observation
-visibility, checkpoint behavior profile and target-route isolation. Until those cards and tests are
-confirmed, module correctness is unclaimed.
+本目录的 Context 测试结果、manifest 和 formal-audit JSON 属于旧版本运行证据，
+保留用于追溯，不作为新版本验收。被替代的讨论、计划和旧约定已清理。
